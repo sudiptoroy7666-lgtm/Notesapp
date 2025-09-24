@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="Brilliant_Azure">#ff919e</color>
+    <color name="Peach_Orange">#a18cd1</color>
+    <color name="Crayolas_Blue_Violet">#a1c4fd</color>
+    <color name="Tiffany_Blue"> #d4fc94</color>
+    <color name="Teal_Deer">#84fab0</color>
+    <color name="Deep_Champagne">#fa709a</color>
+    <color name="Goldenrod_Yellow"> #93a5cf</color>
+
+
+    <color name="Diamond">#B2EBF9</color>
+    <color name= "Shampoo">#F9D2EF</color>
+    <color name="Sunset_Orange">#f6abc4</color>
+    <color name="Alabaster">#F5F0E7</color>
+    <color name="Tea_Green">#CDE8D0 </color>
+
+
+
+    <color name="Crayola">#6B7FCE</color>
+    <color name= "Middle">#fff7df</color>
+    <color name="Mauvelous">#ECA1AE</color>
+    <color name="Lilac">#C2A7CE</color>
+    <color name="Desert">#E8C4AC </color>
+    <color name="Keppel"> #34BEA5</color>
+    <color name= "Light">#1EA9AC</color>
+    <color name="Cornflower">#dbffce</color>
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

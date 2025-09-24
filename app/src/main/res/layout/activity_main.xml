@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pexel2"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/notebook"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp">
+
+</ImageView>
+
+
+
+    <RelativeLayout
+        android:layout_width="290dp"
+        android:layout_height="420dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:requiresFadingEdge="horizontal"
+        android:background="@drawable/rb"
+
+        >
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <!-- Move the ProgressBar inside the CardView -->
+            <ProgressBar
+                android:id="@+id/progressbarofmainactivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/gotoforgotpassword"
+                android:visibility="invisible"
+                android:layout_marginTop="10dp" />
+
+
+            <!-- Move the LinearLayout with Welcome Back! and Log in to continue inside the CardView -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+
+                     />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Log in to continue"
+                    android:textColor="#86C64C"
+                   android:textStyle="bold"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <!-- Move the TextInputLayouts inside the CardView -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                app:boxCornerRadiusBottomEnd="25dp"
+                app:boxCornerRadiusBottomStart="25dp"
+                app:boxCornerRadiusTopEnd="25dp"
+                app:boxCornerRadiusTopStart="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                >
+
+                <EditText
+                    android:id="@+id/loginemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Your Email"
+                    android:inputType="textEmailAddress" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/email"
+                android:layout_marginTop="10dp"
+                app:boxCornerRadiusBottomEnd="25dp"
+                app:boxCornerRadiusBottomStart="25dp"
+                app:boxCornerRadiusTopEnd="25dp"
+                app:boxCornerRadiusTopStart="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/loginpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Your Password" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Move the Log in RelativeLayout inside the CardView -->
+            <RelativeLayout
+                android:id="@+id/login"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/password"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/button_design"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Log in"
+                    android:textColor="#E3F2FD"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <!-- Move the Forgot password TextView inside the CardView -->
+            <TextView
+                android:id="@+id/gotoforgotpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/login"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Forgot password"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+            <!-- Move the Sign up RelativeLayout inside the CardView -->
+            <RelativeLayout
+                android:id="@+id/gotosignup"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_design">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="New User Signup"
+                    android:textAlignment="center"
+                    android:textColor="#E3F2FD"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
