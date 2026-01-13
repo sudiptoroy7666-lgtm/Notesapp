@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="252dp"
+        android:layout_height="174dp"
+        android:layout_marginLeft="65dp"
+        android:contentDescription="@string/nav_header_desc"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:src="@drawable/notebook"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageView"
+        android:layout_marginBottom="-45dp"
+        android:text="Notes App version 4.1.3"
+        android:layout_marginLeft="80dp"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        android:textStyle="italic"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView11"
+        android:layout_alignBottom="@id/imageView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/aboutid"
+
+        android:layout_marginBottom="-206dp"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+    android:text="This app is made for education purpose only. \nAll rights reserved by Sudipta Roy. For any more information please contact : Sudipto-Roy-Joy@protonmail.com \n Download the app from : \n https://drive.google.com/file/d/1QufCzhM6Yn6p9O1vgkPQF3GwXxUmNVHR/view?usp=drive_link"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+
+        android:textSize="18dp"
+        android:autoSizeTextType="uniform"
+        />
+
+
+</RelativeLayout>
