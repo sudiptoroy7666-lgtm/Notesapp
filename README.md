@@ -77,14 +77,14 @@ The full register → email verify → login → password reset flow is implemen
 
 <p align="center">
   <img src="https://github.com/sudiptoroy7666-lgtm/portfolio/blob/fbc009ea41d89c1956497af02910183aa3dd1ecc/note1.jpg" width="18%"/>
-  <img src="assets/screenshots/notes-app/note2.jpg" width="18%"/>
-  <img src="assets/screenshots/notes-app/note3.jpg" width="18%"/>
-  <img src="assets/screenshots/notes-app/note4.jpg" width="18%"/>
-  <img src="assets/screenshots/notes-app/note5.jpg" width="18%"/>
+  <img src="https://github.com/sudiptoroy7666-lgtm/portfolio/blob/fbc009ea41d89c1956497af02910183aa3dd1ecc/note2.jpg" width="18%"/>
+  <img src="https://github.com/sudiptoroy7666-lgtm/portfolio/blob/fbc009ea41d89c1956497af02910183aa3dd1ecc/note3.jpg" width="18%"/>
+  <img src="https://github.com/sudiptoroy7666-lgtm/portfolio/blob/fbc009ea41d89c1956497af02910183aa3dd1ecc/note4.jpg" width="18%"/>
+  <img src="https://github.com/sudiptoroy7666-lgtm/portfolio/blob/fbc009ea41d89c1956497af02910183aa3dd1ecc/note5.jpg" width="18%"/>
 </p>
 <p align="center">
-  <img src="assets/screenshots/notes-app/note6.jpg" width="18%"/>
-  <img src="assets/screenshots/notes-app/note7.jpg" width="18%"/>
+  <img src="https://github.com/sudiptoroy7666-lgtm/portfolio/blob/fbc009ea41d89c1956497af02910183aa3dd1ecc/note6.jpg" width="18%"/>
+  <img src="https://github.com/sudiptoroy7666-lgtm/portfolio/blob/fbc009ea41d89c1956497af02910183aa3dd1ecc/note7.jpg" width="18%"/>
 </p>
 
 ---
